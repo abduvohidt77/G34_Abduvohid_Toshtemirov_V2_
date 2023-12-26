@@ -1,2 +1,6 @@
-package enums;public class UserRoleEnum {
+package enums;
+
+public enum UserRoleEnum {
+    CUSTOMER,
+    OWNER
 }

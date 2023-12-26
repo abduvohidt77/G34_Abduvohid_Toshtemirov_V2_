@@ -1,0 +1,8 @@
+Nazariy - 2, Savol : Thread pool nima. qanday turlari va afzalliklari bor?
+Javob : Thread pool javada bir vaqtning ozida bir nechta vazifalarni bir nechta
+threadlarda bir vaqtning ozida bajarish uchun kerak boladi. Thread poolni 4 ta turi bor
+birinchisi Cached thread pool, ikkkinchisi scheduled thred pool, uchinchisi fixed thred pool,
+tortinchisi esa single thread pool. uning afzalliklari dasturni tezroq ishlashiga yordam beradi,
+kod ham ancha qisqaradi. thread poolni ExecutorService interfeysi orqali yaratish mumkin.
+uni ishga tushirish uchun esa execute methodini ishga tushirish kerak boladi. Yoki submit methodini,
+submit methodi callable va runnable interfeyslarni ham ishga tushira oladi.

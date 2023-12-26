@@ -1,0 +1,6 @@
+1 - Nazariy, Savol : Synchronized kalit sozi nima maqsadda ishlatiladi?
+Javob : Synchronized kalit sozi javada threadlar bilan ishlatilayotganda qollaniladi,
+Synchronized kalit sozinign asosiy vazifasi ikki thread birdek ishlayotganda unga
+bittasi murojaat qilib ishini bitkazmaguncha boshqa threadlar qoshilib ketib qolmaydi.
+Bu kalit sozi asosan methodlarda ishlatiladi, yoki method ichida synchronized(Object obj)
+sifatida kelishi ham mumkin bunda synchronized kodning faqat malum bir qismini sinxron qilib qoyadi.
